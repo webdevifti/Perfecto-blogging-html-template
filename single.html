@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Wizard</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+	
+<header class="header" id="Top">
+	<button class="nav-toggle" aria-label="toggle navigation">
+		<span class="hamburger"></span>
+	</button>
+	<nav class="nav">
+		<div class="container">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link active">Blog</a>
+					<a href="#" class="nav-link">Resouces</a>
+					<a href="#" class="nav-link"> Portfolio</a>
+					<a href="#" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
+<div class="container">
+	<main>
+		<div class="row" style="margin-top: 40px;">
+			<div class="col-md-9 col-xs-12 col-sm-8 col-lg-9">
+				<article>
+					<div class="card" style="border: 1px solid #eee;background-color: #fff;border-radius: 4px;">
+						<div class="card-header" style="border-bottom: 1px solid #eee;">
+							<h3 style="text-align: justify;font-weight: bold;padding: 10px;">Lorem ipsum dolor sit amet, consectetur</h3>
+							<div class="metadata" style="color: #999;padding: 3px;">
+								<span style="margin: 0 10px;"><i class="fa fa-clock-o"></i> Just Now</span>
+								<span style="margin: 0 10px;"><i class="fa fa-folder"></i> Lorem</span>
+								<span style="margin: 0 10px;"><i class="fa fa-user"></i> Admin</span>
+							</div>
+						</div>
+						<div class="card-body" style="padding: 10px;border-bottom: 1px solid #eee;">
+							<p style="text-align: justify;line-height: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="card-footer" style="padding:10px;background-color: #ddd;">
+							<a style="padding: 10px;border-right: 1px solid #aaa;" href="#response">12 <i class="fa fa-comment"></i> Comments</a>
+							<a style="padding: 10px;border-right: 1px solid #aaa;" href="#"> 22 <i class="fa fa-heart"></i> Favourite</a>
+							<a style="padding: 10px;border-right: 1px solid #aaa;" href="#">23 <i class="fa fa-share"></i> Share</a>
+						</div>
+					</div>
+				</article>
+				<div class="commentBox" id="response" style="background-color: #fff;margin-top: 20px;padding: 10px;">
+					<h4>Leave a Comment</h4>
+					<textarea name="" class="form-control" cols="20" rows="2" placeholder="Leave a public comment"></textarea><br>
+					<input type="submit" name="" class="btn btn-info btn-sm" value="Comment">
+					<h3>23 People's Commented</h3><hr>
+					<div class="usercomments">
+						<div class="comments">
+							<div class="user" style="background-color: #f9f9f9;padding: 5px;border-radius: 10px;margin-bottom: 5px;max-width: 250px;text-align: justify;">
+								<span style="font-weight: bold;color: #000;font-size: 18px;">Ashraf Ahmed</span>
+								<span style="color: grey;margin-left: 20px;">3 Hours ago</span>
+							</div>
+							<div class="commentcontent" style="background-color: #f9f9f9;max-width: 300px;text-align: justify;padding: 5px;border-radius: 10px;">
+								<p style="color: #000;font-size: 16px;padding: 5px;">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+						<br><br>
+					</div>
+				</div>
+			</div>
+			<aside>
+				<div class="col-md-3 col-xs-12 col-sm-4 col-lg-3">
+					<div class="widgets" style="background-color: #fff;border: 1px solid #eee;border-radius: 4px;margin-bottom: 20px;">
+						<div class="widgets-header" style="padding: 5px;text-align:center;background-color: #0099BC;">
+							<h3 style="color: #fff">Widget Header</h3>
+						</div>
+						<div class="widgets-body" style="">
+							<ul style="margin-left: -40px;">
+								<li style="list-style: none;">
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="widgets" style="background-color: #fff;border: 1px solid #eee;border-radius: 4px;margin-bottom: 20px;">
+						<div class="widgets-header" style="padding: 5px;text-align:center;background-color: #0099BC;">
+							<h3 style="color: #fff">Widget Header</h3>
+						</div>
+						<div class="widgets-body" style="">
+							<ul style="margin-left: -40px;">
+								<li style="list-style: none;">
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+									<a style="display: block;text-align:justify;padding: 15px;border-bottom: 1px solid #eee" href="#">Widget Ooption</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</main>
+</div>
+<footer style="background-color: #fff;margin-top: 50px;padding: 20px;text-align: center;">
+	<p>Footer</p>
+</footer>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
